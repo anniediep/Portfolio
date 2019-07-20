@@ -1,0 +1,207 @@
+* {
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+body {
+    margin: 0 10%;
+    font-family: 'Roboto', sans-serif;
+}
+
+li, p {
+    line-height: 23px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    font-size: 35px;
+    line-height: 45px;
+}
+
+h2 {
+    font-size: 27px;
+    line-height: 40px;
+}
+
+h3 {
+    font-size: 25px;
+    line-height: 35px;
+}
+
+h4 {
+    font-size: 23px;
+    line-height: 40px;
+}
+
+h5 {
+    font-size: 18px;
+    line-height: 22px;
+}
+h6 {
+    font-size: 15px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.flexItem {
+    margin: 15px auto;
+}
+
+.footer {
+    background-color: white;
+    grid-area: footer;
+    padding: 20px 0;
+}
+
+.footer div {
+    color: dimgray;
+    font-size: 15px;
+    text-align: right;
+}
+
+.grid {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 50px;
+    grid-template-areas: 
+    "sideNav mainContent"
+    "sideNav footer"
+}
+
+.logo{
+    padding: 10px;
+    height: 200px;
+}
+
+.mainContent {
+    background-color: linen;
+    display: flex;
+    flex-direction: column;
+    grid-area: mainContent;
+    padding: 40px 0;
+}
+
+.navLinks {
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    font-size: 20px;
+}
+
+.navLinks li a{
+    line-height: 35px;
+    color: dimgray;
+}
+
+.portfolioCard {
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    width: 90%;
+}
+
+.projDesc {
+    background-color: lightblue;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    margin: 16px 16px;
+}
+
+.projImg {
+    background-color: linen;
+    flex-grow: 1;
+    margin: 16px 16px;
+}
+
+.projImg img{
+    height: 100px;
+}
+
+.sideNav {
+    grid-area: sideNav;
+    text-align: center;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+}
+
+.social-icon{
+    height: 35px;
+    padding: 5px;
+}
+
+.webID {
+    margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
+    padding: 25px;
+}
+
+.webID div {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+#activePage {
+    color: mediumslateblue;
+}
+
+@media only screen and (max-width:720px) {
+    body {
+        margin: 0;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 3fr 30px;
+        grid-template-areas: 
+            "sideNav"
+            "mainContent" 
+            "footer"
+    }
+
+    .logo {
+        height: 80px;
+    }
+
+    .navLinks {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-family: 'Raleway', sans-serif;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        font-size: 16px;
+    }
+
+    .navLinks li {
+        padding: 10px;
+    }
+
+    .portfolioCard {
+        flex-direction: column;
+    }
+
+    .sideNav {
+        height: 225px;
+    }
+
+    .webID div {
+        font-size: 23px;
+    }
+    
+}
