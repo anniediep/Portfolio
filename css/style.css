@@ -103,6 +103,10 @@ p {
     color: dimgray;
 }
 
+.navLinks li a:hover {
+    color: mediumslateblue;
+}
+
 .portfolioCard {
     background-color: white;
     border-radius: 15px;
