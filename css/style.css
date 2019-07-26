@@ -159,6 +159,10 @@ p {
     height: 200px;
 }
 
+.me {
+    width: 100%;
+}
+
 .mainContent {
     background-color: linen;
     display: flex;
@@ -227,6 +231,10 @@ p {
 
 .projImg img{
     height: 100px;
+}
+
+.resume {
+    width: 100%;
 }
 
 .sideNav {
@@ -403,10 +411,14 @@ p {
         align-items: center;
     }
 
+    .footer {
+        padding-bottom: 15px;
+    }
+
     .grid {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 3fr 45px;
+        grid-template-rows: 1fr 3fr 50px;
         grid-template-areas: 
             "sideNav"
             "mainContent" 
@@ -464,6 +476,122 @@ p {
 
     .webID div {
         font-size: 23px;
+    }  
+}
+
+@media only screen and (max-width:375px) {
+    body {
+        margin: 0;
+    }
+
+    h1 {
+        font-size: 23px;
+    }
+
+    h3 {
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+    }
+
+    .banner h1 {
+        text-align: center;
+        float: none;
+        padding: 20px 15px;
+        width: 70%;
+        height: auto;
+    }
+
+    .banner img {
+        display: inline-block;
+        height: auto;
+        max-width: 100%;
+    }
+
+    .cardBlock {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer {
+        padding-bottom: 15px;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 3fr 50px;
+        grid-template-areas: 
+            "sideNav"
+            "mainContent" 
+            "footer"
+    }
+
+    .interest {
+        min-height: 250px;
+    }
+
+    .linenSection ul {
+        padding: 20px 0 0 0;
+        list-style-type: circle;
+    }
+
+    .logo {
+        height: 80px;
+    }
+
+    .navLinks {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-family: 'Raleway', sans-serif;
+        padding: 5px 10px;
+        font-size: 16px;
+    }
+
+    .navLinks li {
+        padding: 0 10px;
+    }
+
+    .pinkSection {
+        background-color: mistyrose;
+        padding: 80px 30px;
+        width: 100%; 
     }
     
+    .pinkSection img {
+        height: 150px;
+    }
+
+    .portfolioCard {
+        flex-direction: column;
+    }
+
+    .sideNav {
+        height: auto;
+        padding: 5px;
+    }
+
+    .social-icon{
+        height: 30px;
+        padding: 5px;
+        margin: 0px 2px;
+    }
+
+    .webID {
+        padding: 5px;
+    }
+
+    .webID div {
+        font-size: 23px;
+    }
+
+    #copyright {
+        font-size: 11px;
+        padding-right: 5px;
+    }
 }
