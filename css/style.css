@@ -215,22 +215,21 @@ p {
 }
 
 .projDesc {
-    background-color: lightblue;
-    flex-grow: 2;
     flex-wrap: wrap;
     margin: 16px 16px;
+    width: 60%;
 }
 
 .projImg {
-    background-color: linen;
-    flex-grow: 1;
     height: auto;
     margin: 16px 16px;
     max-width: 100%;
+    text-align: center;
+    width: 40%;
 }
 
 .projImg img{
-    height: 100px;
+    max-width: 100%;
 }
 
 .resume {
@@ -346,7 +345,20 @@ p {
     }
 
     .portfolioCard {
-        flex-direction: column;
+        flex-direction: row;
+    }
+
+    .projDesc {
+        width: 50%;
+    }
+    
+    .projImg {
+        background-color: white;
+        width: 50%;
+    }
+    
+    .projImg img{
+        max-width: 70%;
     }
 
     .sideNav {
@@ -463,6 +475,19 @@ p {
 
     .portfolioCard {
         flex-direction: column;
+    }
+
+    .projDesc {
+        width: 90%;
+    }
+    
+    .projImg {
+        background-color: white;
+        width: 90%;
+    }
+    
+    .projImg img{
+        max-width: 70%;
     }
 
     .sideNav {
