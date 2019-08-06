@@ -249,6 +249,10 @@ p {
     padding-top: 10px;
 }
 
+.portfolioImg {
+    width: 100%;
+}
+
 .readMore {
     background-color: mediumslateblue;
     color: white;
@@ -258,6 +262,13 @@ p {
 
 .resume {
     width: 100%;
+}
+
+.section {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 40px;
 }
 
 .sideNav {
@@ -274,6 +285,10 @@ p {
     height: 35px;
     padding: 5px;
     margin: 0px 3px;
+}
+
+.textBlock {
+
 }
 
 .thin {
