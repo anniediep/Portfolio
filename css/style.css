@@ -217,7 +217,17 @@ p {
 .projDesc {
     flex-wrap: wrap;
     margin: 16px 16px;
+    padding: 20px 10px;
     width: 60%;
+}
+
+.projContext {
+    padding-top: 15px;
+}
+
+.projTitle {
+    color: dimgray;
+    font-weight: 600;
 }
 
 .projImg {
@@ -230,6 +240,20 @@ p {
 
 .projImg img{
     max-width: 100%;
+}
+
+.projRole {
+    color: darkgray;
+    font-style: italic;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+.readMore {
+    background-color: mediumslateblue;
+    color: white;
+    border-radius: 6px;
+    padding: 10px 50px;
 }
 
 .resume {
