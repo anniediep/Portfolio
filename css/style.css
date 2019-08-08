@@ -81,7 +81,7 @@ p {
 .card{
     background-color: white;
     border-radius: 12px;
-    display: inline-block;
+    /*display: inline-block;*/
     margin: 10px 15px;
     width: 320px;
     height: 425px;
@@ -99,10 +99,6 @@ p {
     padding-bottom: 20px;
 }
 
-/*.cardOne {
-    float: left;
-}*/
-
 .collage {
     display: block;
     float: left;
@@ -113,7 +109,6 @@ p {
 }
 
 .footer {
-    /*clear: both;*/
     align-items: center;
     background-color: white;
     grid-area: footer;
@@ -159,10 +154,6 @@ p {
 .logo{
     padding: 10px;
     height: 200px;
-}
-
-#me {
-    width: 100%;
 }
 
 .mainContent {
@@ -245,7 +236,10 @@ p {
 }
 
 .projImg {
+    align-items: center;
+    display: flex;
     height: auto;
+    justify-content: center;
     margin: 16px 16px;
     max-width: 100%;
     text-align: center;
@@ -389,6 +383,10 @@ p {
     text-align: right;
     padding: 5px;
     width: auto;
+}
+
+#me {
+    width: 100%;
 }
 
 #quoteAuthor {
