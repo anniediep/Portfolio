@@ -90,17 +90,18 @@ p {
 }
 
 .cardBlock {
+    align-content: space-around;
+    display: flex;
     padding-top: 40px;
-    text-align: center;
 }
 
 .card h6 {
     padding-bottom: 20px;
 }
 
-.cardOne {
+/*.cardOne {
     float: left;
-}
+}*/
 
 .collage {
     display: block;
@@ -112,6 +113,7 @@ p {
 }
 
 .footer {
+    /*clear: both;*/
     align-items: center;
     background-color: white;
     grid-area: footer;
@@ -159,7 +161,7 @@ p {
     height: 200px;
 }
 
-.me {
+#me {
     width: 100%;
 }
 
@@ -217,6 +219,13 @@ p {
 
 .portfolioContainer {
     padding: 40px 0;
+}
+
+.problemStatement {
+    font-size: 35px;
+    font-family: Raleway;
+    line-height: 40px;
+    padding-bottom: 20px;
 }
 
 .projDesc {
@@ -312,7 +321,7 @@ p {
 }
 
 .textBlock h1 {
-    padding: 10px 0;
+    padding: 20px 0;
 }
 
 .textBlock h3 {
@@ -339,11 +348,11 @@ p {
     width: 25%;
 }
 
-.quote {
+/*.quote {
     border-left: dimgray 2px solid;
     padding-left: 60px;
     font-style: italic;
-}
+}*/
 
 .walkthrough {
     align-items: center;
@@ -592,6 +601,7 @@ p {
 @media only screen and (max-width:375px) {
     body {
         margin: 0;
+        padding: 0;
     }
 
     h1 {
@@ -605,26 +615,33 @@ p {
 
     .banner {
         flex-direction: column-reverse;
+        align-content: center;
+        max-width: 375px;
     }
 
     .banner h1 {
         text-align: center;
         float: none;
         padding: 20px 15px;
-        width: 70%;
+        width: 100%;
         height: auto;
     }
 
     .banner img {
-        display: inline-block;
+        display: block;
         height: auto;
-        max-width: 100%;
+        width:auto;
+    }
+
+    .card {
+        margin: 10px 0;
     }
 
     .cardBlock {
         display: flex;
         flex-direction: column;
         align-items: center;
+        max-width: 375px;
     }
 
     .footer {
@@ -645,9 +662,14 @@ p {
         min-height: 250px;
     }
 
+    .linenSection {
+        padding: 50px 30px;
+        max-width: 375px;
+    }
+
     .linenSection ul {
-        padding: 20px 0 0 0;
-        list-style-type: circle;
+        padding: 0;
+        list-style-type: none;
     }
 
     .logo {
@@ -669,12 +691,9 @@ p {
 
     .pinkSection {
         background-color: mistyrose;
-        padding: 80px 30px;
+        padding: 80px auto;
         width: 100%; 
-    }
-    
-    .pinkSection img {
-        height: 150px;
+        max-width: 375px;
     }
 
     .portfolioCard {
@@ -692,6 +711,15 @@ p {
         margin: 0px 2px;
     }
 
+    .resume {
+        max-width: 375px;
+    }
+
+    .visual {
+        height: auto;
+        width: 325px !important;
+    }
+
     .webID {
         padding: 5px;
     }
@@ -703,5 +731,9 @@ p {
     #copyright {
         font-size: 11px;
         padding-right: 5px;
+    }
+
+    #aboutMe p {
+        padding: 15px 5px;
     }
 }
