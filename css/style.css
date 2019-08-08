@@ -316,7 +316,7 @@ p {
 }
 
 .textBlock h3 {
-    padding: 5px 0;
+    padding: 8px 0;
 }
 
 .textBlock h5 {
@@ -343,6 +343,12 @@ p {
     border-left: dimgray 2px solid;
     padding-left: 60px;
     font-style: italic;
+}
+
+.walkthrough {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .webID {
