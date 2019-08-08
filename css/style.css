@@ -348,11 +348,11 @@ p {
     width: 25%;
 }
 
-/*.quote {
+.quote {
     border-left: dimgray 2px solid;
     padding-left: 60px;
     font-style: italic;
-}*/
+}
 
 .walkthrough {
     align-items: center;
