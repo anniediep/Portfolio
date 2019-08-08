@@ -186,6 +186,11 @@ p {
     color: mediumslateblue;
 }
 
+.oddBlock {
+    background-color: white;
+    border-left: mistyrose 10px solid;
+}
+
 .pinkSection {
     background-color: mistyrose;
     padding: 80px 80px;
@@ -251,6 +256,8 @@ p {
 
 .portfolioImg {
     width: 100%;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .readMore {
@@ -271,6 +278,13 @@ p {
     padding: 40px 40px;
 }
 
+.separator {
+    background-color: dimgray;
+    height: 1px;
+    margin: 20px 0;
+    width: 100%;
+}
+
 .sideNav {
     grid-area: sideNav;
     text-align: center;
@@ -288,7 +302,25 @@ p {
 }
 
 .textBlock {
+    text-align: left;
+    width: 100%;
+}
 
+.textBlock h5, .textBlock h3, .textBlock h1{
+    color: dimgray;
+    font-weight: 600;
+}
+
+.textBlock h1 {
+    padding: 10px 0;
+}
+
+.textBlock h3 {
+    padding: 5px 0;
+}
+
+.textBlock h5 {
+    padding: 8px 0;
 }
 
 .thin {
