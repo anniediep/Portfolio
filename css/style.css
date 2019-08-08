@@ -323,6 +323,14 @@ p {
     padding: 8px 0;
 }
 
+.textBlock li {
+    list-style-type: circle;
+}
+
+.textBlock ul {
+    padding-left: 20px;
+}
+
 .thin {
     font-weight: 300;
 }
