@@ -133,6 +133,10 @@ p {
     font-size: 50px;
 }
 
+.download:hover {
+    color: white;
+}
+
 .flexItem {
     margin: 0 auto;
 }
@@ -162,6 +166,23 @@ p {
 
 .half {
     width: 50%;
+}
+
+.hello {
+    background-image: url("../img/dessertRose.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: center;
+    padding: 0 40px;
+}
+
+.hello div {
+    background-color: mistyrose;
+    width: 60%;
+    padding: 10px 20px;
 }
 
 .interest{
@@ -545,6 +566,10 @@ p {
         line-height: 35px;
     }
 
+    i {
+        padding: 5px 10px;
+    }
+
     .banner {
         flex-direction: column-reverse;
     }
@@ -570,7 +595,9 @@ p {
     }
 
     .footer {
-        padding-bottom: 15px;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 25px;
     }
 
     .grid {
@@ -648,6 +675,10 @@ p {
     .webID div {
         font-size: 23px;
     }  
+
+    #copyright{
+        padding: 10px 0 25px 0;
+    }
 }
 
 @media only screen and (max-width:375px) {
