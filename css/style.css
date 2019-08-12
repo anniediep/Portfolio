@@ -92,7 +92,6 @@ p {
 .card{
     background-color: white;
     border-radius: 12px;
-    /*display: inline-block;*/
     margin: 10px 15px;
     width: 320px;
     height: 425px;
@@ -108,6 +107,12 @@ p {
 
 .card h6 {
     padding-bottom: 20px;
+}
+
+.case-studies {
+    display: flex;
+    padding: 40px 50px;
+    width: 100%;
 }
 
 .circleBtn {
@@ -357,12 +362,6 @@ p {
     position: sticky;
     top: 0;
 }
-
-/*.social-icon{
-    height: 35px;
-    padding: 5px;
-    margin: 0px 3px;
-}*/
 
 .textBlock {
     text-align: left;
