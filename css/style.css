@@ -115,6 +115,11 @@ p {
     width: 100%;
 }
 
+.centerBlock {
+    display: flex;
+    justify-content: center;
+}
+
 .circleBtn {
     align-items: center;
     background: mediumslateblue;
@@ -314,6 +319,12 @@ p {
 
 .portfolioImg {
     width: 80%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.portfolioImgHalf {
+    width: 40%;
     padding-bottom: 20px;
     padding-top: 20px;
 }
