@@ -111,7 +111,7 @@ p {
 
 .case-studies {
     display: flex;
-    padding: 40px 50px;
+    margin: 40px 50px 30px 50px;
     width: 100%;
 }
 
@@ -268,7 +268,7 @@ p {
 }
 
 .problemStatement {
-    font-size: 35px;
+    font-size: 30px;
     font-family: Raleway;
     line-height: 40px;
     padding-bottom: 20px;
