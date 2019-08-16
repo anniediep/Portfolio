@@ -276,7 +276,7 @@ p {
     font-size: 30px;
     font-family: Raleway;
     line-height: 40px;
-    padding-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .projDesc {
@@ -318,13 +318,13 @@ p {
 }
 
 .portfolioImg {
-    width: 80%;
+    width: 100%;
     padding-bottom: 20px;
     padding-top: 20px;
 }
 
 .portfolioImgHalf {
-    width: 40%;
+    width: 50%;
     padding-bottom: 20px;
     padding-top: 20px;
 }
@@ -385,15 +385,15 @@ p {
 }
 
 .textBlock h1 {
-    padding: 20px 0;
+    margin: 20px 0;
 }
 
 .textBlock h3 {
-    padding: 8px 0;
+    margin: 8px 0;
 }
 
 .textBlock h5 {
-    padding: 25px 0 10px 0;
+    margin: 25px 0 10px 0;
 }
 
 .textBlock li {
