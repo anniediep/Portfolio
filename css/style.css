@@ -17,6 +17,13 @@ body {
     overflow-x: hidden;
 }
 
+figcaption {
+    font-size: 12px;
+    font-style: italic;
+    padding-bottom: -10px; 
+    margin-bottom: 20px;
+}
+
 li, p {
     line-height: 23px;
 }
