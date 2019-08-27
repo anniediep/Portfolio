@@ -141,11 +141,6 @@ p {
     width: 100%;
 }
 
-.centerBlock {
-    display: flex;
-    justify-content: center;
-}
-
 .circleBtn {
     align-items: center;
     background: mediumslateblue;
@@ -250,8 +245,12 @@ p {
 }
 
 .navLinks {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     font-family: 'Raleway', sans-serif;
     padding-bottom: 80px;
+    padding-left: 25%;
     padding-top: 80px;
     font-size: 20px;
 }
@@ -361,13 +360,6 @@ p {
     padding-top: 20px;
 }
 
-.portfolioImgHalf {
-    width: 50%;
-    height: auto;
-    padding-bottom: 20px;
-    padding-top: 20px;
-}
-
 .readMore {
     background-color: mediumslateblue;
     color: white;
@@ -419,7 +411,11 @@ p {
 }
 
 .subNavLinks {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
     padding-bottom: 15px;
+    padding-left: 25px;
     padding-top: 3px;
 }
 
@@ -633,6 +629,11 @@ p {
         padding: 5px 10px;
     }
 
+    iframe {
+        height: 300px;
+        width: 400px;
+    }
+
     .banner {
         flex-direction: column-reverse;
     }
@@ -740,7 +741,29 @@ p {
     }  
 
     #copyright{
-        padding: 10px 0 25px 0;
+        padding: 10px 0 40px 0;
+    }
+}
+
+@media only screen and (max-width:520px) {
+    iframe {
+        height: 200px;
+        width: 350px;
+    }
+
+    .linenSection {
+        margin: 0;
+        padding: 25px 20px;
+    }
+
+    .pinkSection {
+        margin: 0;
+        padding: 25px 20px;
+    }
+
+    .section {
+        margin: 0;
+        padding: 25px 20px;
     }
 }
 
@@ -761,6 +784,11 @@ p {
 
     i {
         padding: 5px 10px;
+    }
+
+    iframe {
+        height: 200px;
+        width: 335px;
     }
 
     .banner {
@@ -794,6 +822,12 @@ p {
         max-width: 375px;
     }
 
+    .case-studies {
+        margin: 25px 20px;
+        width: 90%;
+
+    }
+
     .footer {
         display: flex;
         flex-direction: column;
@@ -810,12 +844,16 @@ p {
             "footer"
     }
 
+    .hello div {
+        width: 80%;
+    }
+
     .interest {
         min-height: 250px;
     }
 
     .linenSection {
-        padding: 40px auto;
+        padding: 25px 15px;
         max-width: 375px;
     }
 
@@ -843,13 +881,22 @@ p {
 
     .pinkSection {
         background-color: mistyrose;
-        padding: 40px auto;
+        padding: 25px 15px;
         width: 100%; 
         max-width: 375px;
     }
 
     .portfolioCard {
         flex-direction: column;
+        margin: 20px auto;
+    }
+
+    .portfolioContainer {
+        padding: 25px 15px;
+    }
+
+    .section {
+        padding: 25px 15px;
     }
 
     .sideNav {
@@ -882,7 +929,7 @@ p {
 
     #copyright {
         font-size: 11px;
-        padding: 10px 0 25px 0;
+        padding: 10px 0 40px 0;
     }
 
     #aboutMe p {
