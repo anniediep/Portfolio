@@ -746,6 +746,11 @@ p {
 }
 
 @media only screen and (max-width:520px) {
+    body {
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+
     iframe {
         height: 200px;
         width: 350px;
@@ -784,6 +789,8 @@ p {
     body {
         margin: 0;
         padding: 0;
+        overflow-y: scroll;
+        overflow-x: hidden;
     }
 
     h1 {
