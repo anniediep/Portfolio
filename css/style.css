@@ -756,6 +756,18 @@ p {
         padding: 25px 20px;
     }
 
+    .next {
+        text-align: right;
+    }
+
+    .next, .prev {
+        font-size: 15px;
+    }
+
+    .prev {
+        text-align: left;
+    }
+
     .pinkSection {
         margin: 0;
         padding: 25px 20px;
@@ -765,6 +777,7 @@ p {
         margin: 0;
         padding: 25px 20px;
     }
+    
 }
 
 @media only screen and (max-width:375px) {
