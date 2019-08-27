@@ -2,10 +2,6 @@
     box-sizing: border-box;
 }
 
-/*html.sr .load-hidden {
-    visibility: hidden;
-}*/
-
 a{
     text-decoration: none;
 }
@@ -417,6 +413,16 @@ p {
     top: 0;
 }
 
+.subnav {
+    color: gainsboro;
+    font-size: 15px;
+}
+
+.subNavLinks {
+    padding-bottom: 15px;
+    padding-top: 3px;
+}
+
 .textBlock {
     text-align: left;
     width: 100%;
@@ -590,6 +596,10 @@ p {
         height: 32px;
         padding: 5px;
         margin: 0px 3px;
+    }
+    
+    .subNavLinks {
+        display: none;
     }
 
     .webID {
