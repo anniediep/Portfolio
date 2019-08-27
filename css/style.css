@@ -116,6 +116,29 @@ p {
     padding-bottom: 20px;
 }
 
+.caseStudyNav {
+    display: flex;
+    width: 100%;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+.caseStudyNext {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 1vw;
+    width: 50%;
+}
+
+.caseStudyPrev {
+    align-items: center;
+    display: flex;
+    justify-content: left;
+    padding-left: 1vw;
+    width: 50%;
+}
+
 .case-studies {
     display: flex;
     margin: 40px 50px 30px 50px;
@@ -244,6 +267,18 @@ p {
 
 .navLinks li a:hover, i:hover {
     color: mediumslateblue;
+}
+
+.next, .prev {
+    color: mediumslateblue;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 500; 
+    padding-bottom: 5px;
+}
+
+.next:hover, .prev:hover {
+    border-bottom: solid 2px mediumslateblue;
 }
 
 .oddBlock {
