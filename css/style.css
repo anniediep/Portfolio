@@ -88,6 +88,12 @@ p {
     max-width: 30%;
 }
 
+.bkToTop {
+    position: fixed;
+    right: 3%;
+    top: 50vh;
+}
+
 .bold {
     font-weight: 600;
 }
@@ -145,13 +151,17 @@ p {
     align-items: center;
     background: mediumslateblue;
     border-radius: 100%;
+    box-shadow: 3px 5px 15px rgba(0,0,0,.5);
     display: flex;
     justify-content: center;
     height: 80px;
     margin-right: 20px;
     width: 80px;
-    transform: translatey(0px);
-	animation: float 6s ease-in-out infinite;
+}
+
+.circleBtn:hover {
+    background: slateblue;
+    cursor: pointer;
 }
 
 .collage {
@@ -170,6 +180,11 @@ p {
 
 .flexItem {
     margin: 0 auto;
+}
+
+.float {
+    transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
 }
 
 .footer {
@@ -530,6 +545,20 @@ p {
         margin: 0;
     }
 
+    i {
+        font-size: 16px;
+    }
+
+    .bkToTop {
+        right: 2%;
+        top: 89vh;
+    }
+
+    .circleBtn {
+        height: 70px;
+        width: 70px;
+    }
+
     .grid {
         display: grid;
         grid-template-columns: 1fr;
@@ -627,6 +656,7 @@ p {
     }
 
     i {
+        font-size: 16px;
         padding: 5px 10px;
     }
 
@@ -653,10 +683,20 @@ p {
         max-width: 100%;
     }
 
+    .bkToTop {
+        right: 3%;
+        top: 85vh;
+    }
+
     .cardBlock {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .circleBtn {
+        height: 60px;
+        width: 60px;
     }
 
     .footer {
@@ -750,6 +790,10 @@ p {
     iframe {
         height: 200px;
         width: 350px;
+    }
+
+    .bkToTop {
+        display: none;
     }
 
     .linenSection {
