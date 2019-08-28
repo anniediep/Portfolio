@@ -559,6 +559,10 @@ p {
         width: 70px;
     }
 
+    .download {
+        font-size: 30px;
+    }
+
     .grid {
         display: grid;
         grid-template-columns: 1fr;
@@ -825,6 +829,52 @@ p {
     
 }
 
+@media only screen and (max-width: 414px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+        align-content: center;
+        max-width: 414px;
+    }
+
+    .case-studies{
+        width: 80%;
+    }
+
+    .navLinks {
+        width: 100%;
+    }
+
+    .mainContent {
+        max-width: 414px;
+    }
+
+    .pinkSection {
+        max-width: 100%;
+    }
+
+    .sideNav {
+        max-width: 414px;
+    }
+    
+    .visual {
+        height: auto;
+        width: 374px; 
+    }
+
+    #aboutMe p{
+        padding-right: 0;
+    }
+
+    #me {
+        height: auto;
+        max-width: 414px;
+    }
+}
+
 @media only screen and (max-width:375px) {
     body {
         margin: 0;
@@ -868,7 +918,7 @@ p {
     .banner img {
         display: block;
         height: auto;
-        width:auto;
+        width: auto;
     }
 
     .card {
@@ -991,6 +1041,11 @@ p {
 
     #aboutMe p {
         padding: 15px 5px;
+    }
+
+    #me {
+        height: auto;
+        max-width: 100%;
     }
 
 }
