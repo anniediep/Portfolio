@@ -229,7 +229,8 @@ p {
 }
 
 .linenSection ul {
-    padding: 20px 0 0 100px;
+    margin-left: 20px;
+    list-style-type: circle;
 }
 
 .logo{
@@ -678,11 +679,6 @@ p {
         min-height: 250px;
     }
 
-    .linenSection ul {
-        padding: 20px 0 0 0;
-        list-style-type: circle;
-    }
-
     .logo {
         height: 80px;
     }
@@ -833,6 +829,8 @@ p {
 
     .card {
         margin: 10px 0;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .cardBlock {
@@ -875,11 +873,6 @@ p {
     .linenSection {
         padding: 25px 15px;
         max-width: 375px;
-    }
-
-    .linenSection ul {
-        padding: 0;
-        list-style-type: none;
     }
 
     .logo {
@@ -936,7 +929,7 @@ p {
 
     .visual {
         height: auto;
-        width: 325px !important;
+        width: 345px;
     }
 
     .webID {
