@@ -90,8 +90,8 @@ p {
 
 .bkToTop {
     position: fixed;
-    right: 3%;
-    top: 50vh;
+    right: 2%;
+    top: 89vh;
 }
 
 .bold {
@@ -178,6 +178,17 @@ p {
     color: white;
 }
 
+.floatMsg {
+    float: right;
+    height: 100%;
+    width: auto;
+}
+
+.full {
+    height: 120px;
+    width: 100%;
+}
+
 .flexItem {
     margin: 0 auto;
 }
@@ -186,6 +197,12 @@ p {
     transform: translatey(0px);
 	animation: float 6s ease-in-out infinite;
 }
+
+.floatMessage {
+    height: auto;
+    width: 30%;
+}
+
 
 .footer {
     align-items: center;
