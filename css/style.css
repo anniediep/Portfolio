@@ -164,6 +164,11 @@ p {
     cursor: pointer;
 }
 
+.codedSite {
+    background-color: #254435 !important;
+    margin-top: 20px;
+}
+
 .collage {
     display: block;
     float: left;
