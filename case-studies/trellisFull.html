@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144243043-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-144243043-1');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="case study, Austin, UX Designer, Annie Diep">
+    <meta name="description" content="Trellis is a web application that brings communities together through the sharing economy. Rent items from your community that prevents you from accomplishing your goals. Trellis helps people get access to items that were previously unreachable.">
+    <meta name="image" content="../img/about-me/divingdiepLogo.png">
+    <meta name="author" content="Annie Diep">
+    <title>Trellis</title>
+    <link rel="shortcut icon" href="../img/divingdiepLogo.ico">
+    <link rel="stylesheet" href="../css/reset.css" type="text/css">
+    <link rel="stylesheet" href="../css/style.css" type="text/css">
+</head>
+<body class="grid">
+    <nav class="sideNav">
+        <div class="sticky">
+            <div class="webID">
+                <img src="../img/about-me/divingdiepLogo.png" alt="logo" class="logo"/>
+                <div>Annie Diep</div>
+            </div> 
+            <ul class="navLinks">
+                <li><a href="../index.html" id="activePage">Portfolio</a></li>
+                <div class="subNavLinks">
+                    <li><a href="trellisShort.html" class="subnav" id="activePage">Trellis</a></li>
+                    <li><a href="recipeTin.html" class="subnav" >RecipeTin</a></li>
+                    <li><a href="front-steps.html" class="subnav">Front Steps Redesign</a></li>
+                    <li><a href="doed.html" class="subnav">DoED Redesign</a></li>
+                </div>
+                <li><a href="../resume.html">Resume</a></li>
+                <li><a href="../about.html">About Me</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main class="mainContent">
+
+        <div class="section"> <!--Context-->
+            <img src="../img/portfolio/Trellis/DisplayImg-14.png" alt="Banner photo of Trellis. Rent things from people in your community. Depicts 3 desktop screens." class="portfolioImg">
+            <div class="textBlock">
+                <h1>A Peer-to-Peer Rental Platform</h1>
+                <p>Trellis is a web application that brings communities together through the sharing economy. Rent items from your community that prevents you from accomplishing your goals. Trellis helps people get access to items that were previously unreachable. </p>
+                <div class="separator"></div>
+            </div>
+                <img src="../img/portfolio/Trellis/Scope-07.png" alt="Scope: Team project where I focused as a UX Researcher, UX Designer, and the sole Front-End Developer over the span of 2 1/2 weeks." class="portfolioImg">
+            <div class="textBlock">
+                <div class="separator"></div>
+                <div class="textBlock">
+                    <h5>PROBLEM</h5>
+                    <p class="problemStatement">For a variety of reasons, people are choosing to live in smaller more efficient spaces, often renting over buying a home, which means they have less space to store things. They wish they could rent instead of buying items that they have limited use for.</p>
+                    <h5>SOLUTION</h5>
+                    <p>We created a peer-to-peer rental platform that encourages community engagement and eco-friendly practices. Additional focus was placed on ease of use for searching and renting items.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section oddBlock"> <!--Research-->
+            <div class="textBlock">
+                <h5>RESEARCH</h5>
+                <p>We interviewed 5 users, 1 business, and sent out a survey. The goal was to learn more about the concept of renting over buying.</p>
+            </div>
+            <img src="../img/portfolio/Trellis/Insights-05.png" alt="User Interview Insights. 1) Most users don't want to buy items they won't use often. 2) The majority of users want to rent an item over buying it to save money and space. 3) Transactional transparency and expectations for all our users when renting. 4) Renting can be more cost-effective, is more eco-friendly, and provides flexibility. 5) Lending provides lenders with passive income, that interest all our users." class="portfolioImg">
+            <figcaption>User Insights from User Interviews and Survey Data</figcaption>
+            <div class="textBlock">
+                <p>Although we had direct competitors, we found that this product isn’t currently offered in the US.</p>
+            </div>
+            <img src="../img/portfolio/Trellis/Trellis_CompAnalysis-06.png" alt="Competitive Analysis covering the strenghts, weaknessess, and opportunities in a peer to peer plateform. Ultimately we saw opportunities in safety with delivery, having upfront cost and rental details (transparency), having an easier rental flow, and making it easier to search for items when there's a large range of products. " class="portfolioImg">
+            <figcaption>Competitor Analysis</figcaption>
+        </div>
+
+        <div class="section"> <!--Definition-->
+            <div class="textBlock">
+                <h5>DEFINITION</h5>
+                <p>In order to bring this idea to life, we created a user persona. One that aligns with our interviews and insights.</p>
+            </div>
+            <img src="../img/portfolio/Trellis/JaneStevens.png" alt="User Persona showcasing Jane Stevens. She's a tax account that is saving for a home and paying off college debt. She values her limited space and hates clutter. One of her biggest painpoints is spending money on items she'll only use once or twice. She's resourceful, artsy, and an optimist." class="portfolioImg">
+            <figcaption>User Persona</figcaption>
+            <div class="textBlock">
+                    <p>When you can rent anything from a community, what does that mean? We explored categorizing different items to cover our categories wholistically. Two items, in particular, gave us the most headaches: a ladder and a stroller.</p>
+                </div>
+                <img src="../img/portfolio/Trellis/CardSort-08.png" alt="Card sorting our items into discernable categories. Our final categories were: Household, Outdoors, Tools, Luxury, Electronics, and Baby & Pets." class="portfolioImg">
+                <figcaption>Card Sorting Items into Categories</figcaption>
+            <div class="textBlock">
+                <p>We chose to work on the rental process from the renter’s perspective. The photo below shows us working through categories and figuring out how to make the search process easier. While the diagram on the right is the simplified flow.</p>
+            </div>
+            <img src="../img/portfolio/Trellis/UserFlowRevised-03.png" alt="User Flow is showcased. Task: You bought some artwork that you want to hang, but you don't have power tools. Rent a drill." class="portfolioImg">
+            <figcaption>User Flow: (left) initial flow, (right) final flow.</figcaption>
+        </div>
+
+        <div class="section oddBlock"> <!--Iteration-->
+            <div class="textBlock">
+                <h5>ITERATION</h5>
+                <h3>Sketches and Wireframes</h3>
+                <p>Sketching was a very smooth process with most of the discussion revolving around the search bar placement and how our users will filter items.</p>
+            </div>
+            <img src="../img/portfolio/Trellis/Sketches-09.png" alt="Initial sketches of Trellis: Homepage, Search Results, and Product Detail Page." class="portfolioImg">
+            <figcaption>Initial Sketches</figcaption>
+            <img src="../img/portfolio/Trellis/lofi-10.png" alt="Lo-Fi screens created from initial sketches." class="portfolioImg">
+            <figcaption>Lo-Fi</figcaption>
+            <div class="textBlock">
+                <h3>Style Guide</h3>
+                <p>Our team thought it was important to create a simple, clean design. Even more so because Trellis will be full of photos of all kinds of rental items. We chose green to touch on the environmental friendly aspect of Trellis.</p>
+            </div>
+            <img src="../img/portfolio/Trellis/Style Guide.png" alt="Trellis' Style Guide. We kept the overall design clean and simple using a white as a base color and having pops of green for cohesion in branding." class="portfolioImg">
+            <figcaption>Trellis Style Guide</figcaption>
+            <div class="textBlock">
+                <h3>Testing & Improvements</h3>
+                <p>After creating our wireframes we tested our user flow. Users had no issues completing the task. However, there were some concerns raised that we addressed below.</p>
+            </div>
+            <img src="../img/portfolio/Trellis/UserTest1-11.png" alt="Iteration 1: Users had no issues navigating the flow. Instead we caught items that would make the flow more realistic like the cost of the renting the drill per day, giving the user feedback from a button interaction, rethinking delivery options, adding a rough distance for delivery, and providing a chat system to communicate with the owner of the item." class="portfolioImg">
+            <figcaption>Testing and Iteration on the User Flow</figcaption>
+            <div class="textBlock">
+                <p>We were curious about whether people would impulse rent items. And debated the importance of transparency and maximizing above-the-fold content.</p>
+            </div>
+            <img src="../img/portfolio/Trellis/ABTesting-13.jpg" alt="A/B Testing testing the validity of condensing info to be above the fold versus having to scroll for information. Ultmately we found users naturally scrolled for more information and we wanted to honor the insight that users value more transparency." class="portfolioImg">
+            <figcaption>A/B Testing</figcaption>
+            <div class="textBlock">
+                <p>We continued testing and refining the flow. Below you can see the results based on the feedback on delivery.</p>
+            </div>
+            <img src="../img/portfolio/Trellis/MessagesForDelivery-15.png" alt="Iteration 2: Delivery Option. We quickly learned that having the delivery option of the rental item on it's product page was unrealistic. This is the nature of rapid prototyping. Our solution was to create an additional screen 'Messages' to create a channel to gain clarity in arranging delivery, ask the lender questions, inform the user of the rental period, extend rental period, and manage payments." class="portfolioImg">
+            <figcaption>User testing on Delivery Options</figcaption>
+        </div>
+
+        <div class="section">
+            <div class="textBlock">
+                <h5>RESULT</h5>
+                <h3>Coded Pages</h3>
+                <div class="portfolioCard flexItem recipeTin">
+                    <div class="projImg">
+                        <img src="../img/portfolio/Trellis/DisplayImg-14.png" alt="Trellis thumbnail, shows responsive desktop and mobile view">
+                    </div>
+                    <div class="projDesc">
+                        <h2 class="projTitle">Trellis Web App</h2>
+                        <p class="projContext">I coded the first 3 pages of our flow. View our responsive website here.</p>
+                        <p class="projRole"></p>
+                        <a href="https://anniediep.github.io/Trellis/" target="_blank" class="readMore codedSite">View Trellis</a>
+                    </div>
+                </div>
+            <div class="textBlock"> <!--Reflection-->
+                <h3>Final Thoughts</h3>
+                <ul>
+                    <li>This project was a success. We identified a gap in the U.S. market that hasn’t been tapped yet. Trellis supports a circular economy of reusing resources. From a business perspective, there's little to maintain outside of logistics. Overall, a great return in business value that has buy-in from both rentees and renters.</li>
+                    <li>This was a great team to work with. We had some healthy internal debates about aspects of our design and made good use of whiteboards, windows, and sticky notes to work through our design challenges. </li>
+                    <li>We found ourselves with many parking lot items. The next logical step is to look into improving the categorization of products, especially clothing and luxury items.</li>
+                    <li>Given more time, I would build out the last responsive page in the flow.</li>
+                </ul>
+            </div>
+            <div class="caseStudyNav">
+                    <div class="caseStudyPrev">
+                    </div>
+                    <div class="caseStudyNext">
+                        <a href="recipeTin.html" class="next">RecipeTin ></a>
+                    </div>
+                </div>
+        </div>
+    </main>
+    <div onclick="topFunction()" title="Go to top" class="circleBtn bkToTop">
+        <i class="fas fa-chevron-up download"></i>
+    </div>
+    <footer class="footer">
+        <div>
+            <span class="socialLinks">
+                <a href="https://www.linkedin.com/in/annie-diep-4a18784a/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://dribbble.com/AnnieDiep" target="_blank"><i class="fab fa-dribbble"></i></a>
+                <a href="https://www.instagram.com/divingdiep/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </span>
+        </div>
+        <div id="copyright">Website Coded and Designed by Annie Diep 2019 ©</div>
+    </footer>
+    <script src="https://kit.fontawesome.com/d635a356d3.js"></script>
+    <script src="../js/index.js"></script>
+</body>
+</html>

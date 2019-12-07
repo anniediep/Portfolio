@@ -2,6 +2,85 @@
     box-sizing: border-box;
 }
 
+.descTxtGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "desct txt1 txt1 txt1";
+  }
+  
+.desct { 
+    grid-area: desct;
+    margin-right: 50px;
+}
+  
+.txt1 { grid-area: txt1; }
+
+.txtImgGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas: "heading heading" "txt2 img";
+  }
+
+.heading {
+    grid-area: heading;
+}
+  
+.txt2 { 
+    grid-area: txt2;
+    margin-right: 50px;
+}
+  
+.img { grid-area: img; }
+
+.features {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.item {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    width: 45%;
+}
+
+.itemDesc {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.sectionMargin {
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+
+.pMargin {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.centeredBtn{
+    background-color: #254435;
+    color: white;
+    border-radius: 6px;
+    margin-top: -100px;
+    padding: 10px 50px;
+}
+
+.centeredBtn:hover {
+    background-color: #71A633;
+}
+
+.figUnderBtn {
+    margin-top: 100px;
+}
+
+.gridPic {
+    width: 100%;
+}
+
 a{
     text-decoration: none;
 }
@@ -54,6 +133,9 @@ h5 {
 }
 h6 {
     font-size: 15px;
+    line-height: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
 }
 
 i {
@@ -66,6 +148,10 @@ i {
 p {
     font-size: 18px;
     line-height: 30px;
+}
+
+.aWidth {
+    width: 50% !important;
 }
 
 .banner{
@@ -172,6 +258,11 @@ p {
 .collage {
     display: block;
     float: left;
+}
+
+.desc {
+    text-align: left;
+    width: 25% !important;
 }
 
 .download {
@@ -282,6 +373,10 @@ p {
     grid-area: mainContent;
 }
 
+.marginL {
+    margin-left: 16px !important;
+}
+
 .navLinks {
     display: flex;
     flex-direction: column;
@@ -351,6 +446,13 @@ p {
     font-size: 30px;
     font-family: Raleway;
     line-height: 40px;
+    margin-bottom: 15px;
+}
+
+.problemStatement2 {
+    font-size: 24px;
+    font-family: Raleway;
+    line-height: 33px;
     margin-bottom: 15px;
 }
 
@@ -433,6 +535,20 @@ p {
     width: 100%;
 }
 
+.separatorH {
+    background-color: dimgray;
+    height: 1px;
+    margin: 20px 0;
+    width: 50%;
+}
+
+.separatorTitle {
+    background-color: dimgray;
+    height: 1px;
+    margin: 5px 0;
+    width: 100%;
+}
+
 .sideNav {
     grid-area: sideNav;
     text-align: center;
@@ -459,7 +575,6 @@ p {
 
 .textBlock {
     text-align: left;
-    width: 100%;
 }
 
 .textBlock h5, .textBlock h3, .textBlock h1{
@@ -562,6 +677,48 @@ p {
 	}
 }
 
+@media only screen and (max-width: 1400px) {
+    .descTxtGrid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 1fr;
+        grid-template-areas: "desct" "txt1";
+      }
+    
+    .txtImgGrid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto 1fr;
+        grid-template-areas: "heading" "txt2" "img";
+    }
+
+    .txt2 {
+        margin-bottom: 40px;
+    }
+
+    .centeredBtn{
+        margin-top: -80px;
+    }
+    
+    .figUnderBtn {
+        margin-top: 80px;
+    }
+    
+    .pMargin {
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+
+    .gridPic {
+        width: 50%;
+    }
+
+    .sectionMargin {
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+}
+
 @media only screen and (max-width: 1200px) {
     body {
         margin: 0;
@@ -571,18 +728,45 @@ p {
         font-size: 16px;
     }
 
+    .descTxtGrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: "desct txt1 txt1 txt1";
+      }
+    
+    .txtImgGrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto 1fr;
+        grid-template-areas: "heading heading" "txt2 img";
+    }
+
+    .txt2 {
+        margin-bottom: 40px;
+    }
+
     .bkToTop {
         right: 2%;
         top: 89vh;
+    }
+
+    .centeredBtn{
+        margin-top: -100px;
     }
 
     .circleBtn {
         height: 70px;
         width: 70px;
     }
+    
 
     .download {
         font-size: 30px;
+    }
+
+    .figUnderBtn {
+        margin-top: 100px;
     }
 
     .grid {
@@ -593,6 +777,10 @@ p {
             "sideNav"
             "mainContent" 
             "footer"
+    }
+
+    .gridPic {
+        width: 100%;
     }
 
     .logo {
@@ -691,6 +879,20 @@ p {
         width: 400px;
     }
 
+    .descTxtGrid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 1fr;
+        grid-template-areas: "desct" "txt1";
+      }
+    
+    .txtImgGrid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto 1fr;
+        grid-template-areas: "heading" "txt2" "img";
+    }
+
     .banner {
         flex-direction: column-reverse;
     }
@@ -720,9 +922,17 @@ p {
         align-items: center;
     }
 
+    .centeredBtn{
+        margin-top: -80px;
+    }
+
     .circleBtn {
         height: 60px;
         width: 60px;
+    }
+
+    .figUnderBtn {
+        margin-top: 80px;
     }
 
     .footer {
@@ -739,6 +949,10 @@ p {
             "sideNav"
             "mainContent" 
             "footer"
+    }
+
+    .gridPic {
+        width: 75%;
     }
 
     .interest {
@@ -774,6 +988,11 @@ p {
 
     .portfolioCard {
         flex-direction: column;
+    }
+
+    .pMargin {
+        margin-bottom: 40px;
+        margin-top: 40px;
     }
 
     .projDesc {
@@ -816,6 +1035,10 @@ p {
     iframe {
         height: 200px;
         width: 350px;
+    }
+
+    .gridPic {
+        width: 100%;
     }
 
     .linenSection {
