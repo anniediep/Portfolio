@@ -2,97 +2,6 @@
     box-sizing: border-box;
 }
 
-.descTxtGrid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: "desct txt1 txt1 txt1";
-  }
-  
-.desct { 
-    grid-area: desct;
-    margin-right: 50px;
-}
-  
-.txt1 { grid-area: txt1; }
-
-.txtImgGrid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto 1fr;
-    grid-template-areas: "heading heading" "txt2 img";
-  }
-
-.heading {
-    grid-area: heading;
-}
-  
-.txt2 { 
-    grid-area: txt2;
-    margin-right: 50px;
-}
-  
-.img { grid-area: img; }
-
-.features {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-}
-
-.item {
-    margin-bottom: 15px;
-    margin-top: 15px;
-    width: 45%;
-}
-
-.itemDesc {
-    font-size: 15px;
-    line-height: 20px;
-}
-
-.sectionMargin {
-    margin-bottom: 80px;
-    margin-top: 80px;
-}
-
-.pMargin {
-    margin-bottom: 30px;
-    margin-top: 30px;
-}
-
-.centeredBtn{
-    background-color: #254435;
-    color: white;
-    border-radius: 6px;
-    margin-top: -100px;
-    padding: 10px 50px;
-}
-
-.centeredBtn:hover {
-    background-color: #71A633;
-}
-
-.figUnderBtn {
-    margin-top: 100px;
-}
-
-.gridPic {
-    width: 100%;
-}
-
-.profilePic {
-    border-radius: 100%;
-    height: auto;
-    max-width: 200px;
-    padding-right: 0px !important;
-    width: 100%;
-}
-
-.blackfont{
-    color: black !important;
-}
-
 a{
     color: black;
     text-decoration: none;
@@ -163,6 +72,52 @@ p {
     line-height: 30px;
 }
 
+.descTxtGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "desct txt1 txt1 txt1";
+  }
+  
+.desct { 
+    grid-area: desct;
+    margin-right: 50px;
+}
+  
+.txt1 { grid-area: txt1; }
+
+.txtImgGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas: "heading heading" "txt2 img";
+  }
+
+.heading {
+    grid-area: heading;
+}
+  
+.txt2 { 
+    grid-area: txt2;
+    margin-right: 50px;
+}
+  
+.img { grid-area: img; }
+
+.meBlurb {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "me blurb blurb blurb";
+}
+  
+.me { 
+    grid-area: me;
+    margin: 30px 50px 30px 0;
+}
+  
+.blurb { grid-area: blurb; }
+
 .aWidth {
     width: 50% !important;
 }
@@ -191,6 +146,11 @@ p {
     position: fixed;
     right: 2%;
     top: 89vh;
+}
+
+.blurbSection{
+    color: black !important;
+    margin: 30px 0;
 }
 
 .bold {
@@ -246,6 +206,18 @@ p {
     width: 100%;
 }
 
+.centeredBtn{
+    background-color: #254435;
+    color: white;
+    border-radius: 6px;
+    margin-top: -100px;
+    padding: 10px 50px;
+}
+
+.centeredBtn:hover {
+    background-color: #71A633;
+}
+
 .circleBtn {
     align-items: center;
     background: mediumslateblue;
@@ -287,15 +259,14 @@ p {
     color: white;
 }
 
-.floatMsg {
-    float: right;
-    height: 100%;
-    width: auto;
+.features {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
 }
 
-.full {
-    height: 120px;
-    width: 100%;
+.figUnderBtn {
+    margin-top: 100px;
 }
 
 .flexItem {
@@ -312,6 +283,11 @@ p {
     width: 30%;
 }
 
+.floatMsg {
+    float: right;
+    height: 100%;
+    width: auto;
+}
 
 .footer {
     align-items: center;
@@ -326,6 +302,11 @@ p {
     padding: 3px 0;
 }
 
+.full {
+    height: 120px;
+    width: 100%;
+}
+
 .grid {
     display: grid;
     height: 100vh;
@@ -334,6 +315,10 @@ p {
     grid-template-areas: 
     "sideNav mainContent"
     "sideNav footer"
+}
+
+.gridPic {
+    width: 100%;
 }
 
 .half {
@@ -361,6 +346,17 @@ p {
     height: 60%;
     padding-top: 25px;
     padding-bottom: 25px;
+}
+
+.item {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    width: 45%;
+}
+
+.itemDesc {
+    font-size: 15px;
+    line-height: 20px;
 }
 
 .linenSection {
@@ -455,6 +451,11 @@ p {
     margin-bottom: 40px;
 }
 
+.pMargin {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
 .problemStatement {
     font-size: 30px;
     font-family: Raleway;
@@ -467,6 +468,14 @@ p {
     font-family: Raleway;
     line-height: 33px;
     margin-bottom: 15px;
+}
+
+.profilePic {
+    border-radius: 100%;
+    height: auto;
+    max-width: 200px;
+    padding-right: 0px !important;
+    width: 100%;
 }
 
 .projDesc {
@@ -539,6 +548,11 @@ p {
     display: flex;
     flex-direction: column;
     padding: 40px 40px;
+}
+
+.sectionMargin {
+    margin-bottom: 80px;
+    margin-top: 80px;
 }
 
 .separator {
@@ -906,6 +920,13 @@ p {
         grid-template-areas: "heading" "txt2" "img";
     }
 
+    .meBlurb {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 1fr;
+        grid-template-areas: "me" "blurb";
+    }
+
     .banner {
         flex-direction: column-reverse;
     }
@@ -927,6 +948,16 @@ p {
     .bkToTop {
         right: 3%;
         top: 85vh;
+    }
+
+    .blurb {
+        text-align: center;
+    }
+
+    .blurbSection {
+        margin: 0 25px;
+        font-size: 20px;
+        line-height: 28px;
     }
 
     .cardBlock {
@@ -976,6 +1007,11 @@ p {
         height: 80px;
     }
 
+    .me {
+        margin: 30px 0 0 0;
+        text-align: center;
+    }
+
     .navLinks {
         display: flex;
         flex-direction: row;
@@ -1006,6 +1042,13 @@ p {
     .pMargin {
         margin-bottom: 40px;
         margin-top: 40px;
+    }
+
+    .profilePic {
+        height: auto;
+        max-width: 150px;
+        padding-right: 0px !important;
+        width: 50%;
     }
 
     .projDesc {
