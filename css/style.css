@@ -210,7 +210,7 @@ p {
     background-color: #254435;
     color: white;
     border-radius: 6px;
-    margin-top: -100px;
+    margin: 0 auto 40px auto;
     padding: 10px 50px;
 }
 
@@ -724,7 +724,7 @@ p {
     }
 
     .centeredBtn{
-        margin-top: -80px;
+        margin: 20px auto;
     }
     
     .figUnderBtn {
@@ -776,10 +776,6 @@ p {
     .bkToTop {
         right: 2%;
         top: 89vh;
-    }
-
-    .centeredBtn{
-        margin-top: -100px;
     }
 
     .circleBtn {
@@ -964,10 +960,6 @@ p {
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
-
-    .centeredBtn{
-        margin-top: -80px;
     }
 
     .circleBtn {
