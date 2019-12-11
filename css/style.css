@@ -602,11 +602,12 @@ p {
 
 .textBlock {
     text-align: left;
+    width: 100%;
 }
 
-.textBlock h5, .textBlock h3, .textBlock h1{
+.textBlock h5{
     color: dimgray;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .textBlock h1 {
