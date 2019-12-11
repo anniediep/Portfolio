@@ -310,7 +310,7 @@ p {
 .grid {
     display: grid;
     height: 100vh;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 300px 3fr;
     grid-template-rows: 1fr 50px;
     grid-template-areas: 
     "sideNav mainContent"
@@ -392,7 +392,7 @@ p {
     align-items: flex-start;
     font-family: 'Raleway', sans-serif;
     padding-bottom: 80px;
-    padding-left: 25%;
+    padding-left: 20%;
     padding-top: 80px;
     font-size: 20px;
 }
@@ -533,6 +533,14 @@ p {
     background-color: slateblue;
 }
 
+.recipeTinP {
+    background-color: #0070A0 !important;
+}
+
+.recipeTinP:hover {
+    background-color: #30B3E3 !important; 
+}
+
 .resume {
     width: 100%;
 }
@@ -615,7 +623,7 @@ p {
 }
 
 .textBlock h3 {
-    margin: 8px 0;
+    margin: 25px 0 8px 0;
 }
 
 .textBlock h5 {
