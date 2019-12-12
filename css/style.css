@@ -210,7 +210,7 @@ p {
     background-color: #254435;
     color: white;
     border-radius: 6px;
-    margin: 0 auto 40px auto;
+    margin: 20px auto 40px auto;
     padding: 10px 50px;
 }
 
@@ -287,6 +287,14 @@ p {
     float: right;
     height: 100%;
     width: auto;
+}
+
+.frontStepsP {
+    background-color: #173F73;
+}
+
+.frontStepsP:hover {
+    background-color: #676A72;
 }
 
 .footer {
@@ -534,11 +542,11 @@ p {
 }
 
 .recipeTinP {
-    background-color: #0070A0 !important;
+    background-color: #0C5C75 !important;
 }
 
 .recipeTinP:hover {
-    background-color: #30B3E3 !important; 
+    background-color: #559cb9 !important; 
 }
 
 .resume {
@@ -640,6 +648,10 @@ p {
 
 .thin {
     font-weight: 300;
+}
+
+.topButton {
+    margin-bottom: 10px !important;
 }
 
 .quarter {
