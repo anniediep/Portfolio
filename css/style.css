@@ -250,6 +250,14 @@ p {
     width: 25% !important;
 }
 
+.doedP {
+    background-color: #004F93;
+}
+
+.doedP:hover {
+    background-color: #3D4971;
+}
+
 .download {
     color: white;
     font-size: 50px;
