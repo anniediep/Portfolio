@@ -662,6 +662,14 @@ p {
     margin-bottom: 10px !important;
 }
 
+.travisCountyP {
+    background-color: #2C3C8C !important;
+}
+
+.travisCountyP:hover {
+    background-color: #435CD9 !important; 
+}
+
 .quarter {
     width: 25%;
 }
