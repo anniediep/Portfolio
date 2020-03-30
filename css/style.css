@@ -72,6 +72,14 @@ p {
     line-height: 30px;
 }
 
+.shorten {
+    width: 75%;
+}
+
+.summary {
+    font-size: 20px;
+}
+
 .descTxtGrid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -376,7 +384,7 @@ p {
 }
 
 .linenSection {
-    background-color: linen;
+    background-color: floralwhite;
     padding: 50px 80px;
     width: 100%;
 }
@@ -392,7 +400,7 @@ p {
 }
 
 .mainContent {
-    background-color: linen;
+    background-color: floralwhite;
     display: flex;
     flex-direction: column;
     grid-area: mainContent;
@@ -494,6 +502,10 @@ p {
     width: 100%;
 }
 
+.projContext {
+    padding-top: 15px;
+}
+
 .projDesc {
     flex-wrap: wrap;
     margin: 16px 16px;
@@ -501,8 +513,41 @@ p {
     width: 60%;
 }
 
-.projContext {
-    padding-top: 15px;
+.projDetails {
+    display: flex;
+    align-content: flex-start;
+}
+
+.projDWidth {
+    padding: 10px;
+    width: 50%;
+}
+
+.projDWidth ul li {
+    margin-left: 40px;
+}
+
+.projDImg {
+    padding: 10px;
+    width: 75%;
+}
+
+.projNavLinks {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-top: 3px;
+}
+
+.projnav {
+    color: gainsboro;
+    font-size: 15px;
+}
+
+.projNavLinks li a:hover, i:hover {
+    color: mediumslateblue;
 }
 
 .projTitle {
@@ -597,6 +642,13 @@ p {
     background-color: dimgray;
     height: 1px;
     margin: 20px 0;
+    width: 50%;
+}
+
+.separatorSum {
+    background-color: dimgray;
+    height: 1px;
+    margin: 40px 0;
     width: 50%;
 }
 
@@ -1149,10 +1201,18 @@ p {
     .prev {
         text-align: left;
     }
-
+    
     .pinkSection {
         margin: 0;
         padding: 25px 20px;
+    }
+
+    .projDetails {
+        flex-wrap: nowrap;
+    }
+
+    .projDWidth {
+        width: 100%;
     }
 
     .section {
